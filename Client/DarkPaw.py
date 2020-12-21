@@ -71,6 +71,7 @@ def opencv_r():
 				cv2.putText(source,('CPU Temperature: %s'%CPU_TEP),(370,350), font, 0.5,(128,255,128),1,cv2.LINE_AA)
 				cv2.putText(source,('CPU Usage: %s'%CPU_USE),(370,380), font, 0.5,(128,255,128),1,cv2.LINE_AA)
 				cv2.putText(source,('RAM Usage: %s'%RAM_USE),(370,410), font, 0.5,(128,255,128),1,cv2.LINE_AA)
+				cv2.putText(source, ('Test RAM Usage: %s' % RAM_USE), (370, 410), font, 0.5, (128, 255, 128), 1, cv2.LINE_AA)
 
 				#cv2.line(source,(320,240),(260,300),(255,255,255),1)
 				#cv2.line(source,(210,300),(260,300),(255,255,255),1)
